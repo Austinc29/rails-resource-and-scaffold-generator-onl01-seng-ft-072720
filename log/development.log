@@ -77,3 +77,12 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 30ms (Views: 14.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/articles" for 24.15.97.75 at 2020-09-27 04:37:11 +0000
+Cannot render console from 24.15.97.75! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 526ms (Views: 523.2ms | ActiveRecord: 0.4ms)
+
+
